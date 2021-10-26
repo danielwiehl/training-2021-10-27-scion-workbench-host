@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@scion/workbench/theming';
+
+@include wb-theme();
+
+body {
+  display: grid;
+  position: absolute;
+  inset: 0 0 0 0;
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+}

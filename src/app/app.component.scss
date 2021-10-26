@@ -1,0 +1,17 @@
+:host {
+  display: grid;
+
+  button {
+    background-color: unset;
+    color: white;
+    border: 1px solid transparent;
+    font-size: 1.5em;
+    cursor: pointer;
+    width: 1.5em;
+    height: 1.5em;
+
+    &:hover {
+      border: 1px solid gray;
+    }
+  }
+}

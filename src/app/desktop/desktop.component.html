@@ -1,0 +1,9 @@
+<ul>
+  <li [wbRouterLink]="'/host-view'">
+    Host View
+  </li>
+  <li *ngFor="let viewCapability of viewCapabilities$ | async"
+      (click)="onTileClick(viewCapability)">
+    {{viewCapability.properties.title}}
+  </li>
+</ul>

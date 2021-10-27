@@ -1,0 +1,21 @@
+{
+  "name": "SCION Microfrontend Platform DevTools",
+  "baseUrl": "https://micro-frontends.org/",
+  "capabilities": [
+    {
+      "type": "view",
+      "qualifier": {
+        "component": "external"
+      },
+      "description": "Bla bla bla",
+      "private": false,
+      "properties": {
+        "path": "",
+        "title": "Microfrontends.org",
+        "heading": "Some external stuff"
+      }
+    }
+  ],
+  "intentions": [
+  ]
+}
